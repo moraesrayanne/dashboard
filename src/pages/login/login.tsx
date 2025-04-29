@@ -1,6 +1,6 @@
 import { useState } from "react"
-import { Input } from "../../components/input/input"
-import { Button } from "../../components/button/button"
+import { Input } from "@components/input/input"
+import { Button } from "@components/button/button"
 
 export const Login = () => {
   const [email, setEmail] = useState<string>()
